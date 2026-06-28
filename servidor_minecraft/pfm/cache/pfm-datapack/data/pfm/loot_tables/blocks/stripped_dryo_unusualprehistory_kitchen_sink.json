@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "stripped_dryo_unusualprehistory_kitchen_sink",
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pfm:stripped_dryo_unusualprehistory_kitchen_sink"
+        }
+      ]
+    }
+  ]
+}

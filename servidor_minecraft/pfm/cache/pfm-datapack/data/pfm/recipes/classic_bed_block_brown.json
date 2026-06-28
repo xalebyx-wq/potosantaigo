@@ -1,0 +1,47 @@
+{
+  "type": "pfm:dynamic_furniture",
+  "group": "bedroom",
+  "supportedVariants": [
+    "minecraft:oak",
+    "minecraft:bamboo",
+    "minecraft:spruce",
+    "minecraft:birch",
+    "minecraft:jungle",
+    "minecraft:acacia",
+    "minecraft:cherry",
+    "minecraft:dark_oak",
+    "minecraft:mangrove",
+    "minecraft:crimson",
+    "minecraft:warped",
+    "iceandfire:dreadwood",
+    "alexscaves:pewen",
+    "alexscaves:thornwood",
+    "unusualprehistory:foxxi",
+    "unusualprehistory:ginkgo",
+    "unusualprehistory:dryo",
+    "born_in_chaos_v1:scorched",
+    "cataclysm:chorus",
+    "witherstormmod:tainted",
+    "unusual_prehistory:ginkgo",
+    "unusual_prehistory:lepidodendron",
+    "unusual_prehistory:dryophyllum",
+    "unusual_prehistory:metasequoia"
+  ],
+  "ingredients": {
+    "vanillaIngredients": [
+      {
+        "item": "minecraft:brown_bed"
+      }
+    ],
+    "variantChildren": {
+      "fence": 2,
+      "base": 3
+    }
+  },
+  "result": {
+    "outputClass": "ClassicBedBlock",
+    "tag": {
+      "color": "brown"
+    }
+  }
+}

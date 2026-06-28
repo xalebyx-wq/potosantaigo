@@ -1,0 +1,59 @@
+{
+  "type": "pfm:dynamic_furniture",
+  "group": "stools",
+  "supportedVariants": [
+    "minecraft:oak",
+    "minecraft:bamboo",
+    "minecraft:spruce",
+    "minecraft:birch",
+    "minecraft:jungle",
+    "minecraft:acacia",
+    "minecraft:cherry",
+    "minecraft:dark_oak",
+    "minecraft:mangrove",
+    "minecraft:crimson",
+    "minecraft:warped",
+    "iceandfire:dreadwood",
+    "alexscaves:pewen",
+    "alexscaves:thornwood",
+    "unusualprehistory:foxxi",
+    "unusualprehistory:ginkgo",
+    "unusualprehistory:dryo",
+    "born_in_chaos_v1:scorched",
+    "cataclysm:chorus",
+    "witherstormmod:tainted",
+    "unusual_prehistory:ginkgo",
+    "unusual_prehistory:lepidodendron",
+    "unusual_prehistory:dryophyllum",
+    "unusual_prehistory:metasequoia",
+    "minecraft:stone",
+    "minecraft:calcite",
+    "minecraft:light_wood",
+    "minecraft:dark_wood",
+    "minecraft:pink_wood",
+    "minecraft:quartz",
+    "minecraft:netherite",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:deepslate",
+    "unusualprehistory:petrified_wood",
+    "cataclysm:end_stone",
+    "cataclysm:obsidian",
+    "cataclysm:sandstone",
+    "cataclysm:azure_seastone"
+  ],
+  "ingredients": {
+    "vanillaIngredients": [],
+    "variantChildren": {
+      "secondary": 2,
+      "base": 3
+    }
+  },
+  "result": {
+    "outputClass": "SimpleStoolBlock",
+    "count": 4
+  }
+}

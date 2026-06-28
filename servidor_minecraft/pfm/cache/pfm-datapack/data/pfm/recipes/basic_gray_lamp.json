@@ -1,0 +1,60 @@
+{
+  "type": "pfm:dynamic_furniture",
+  "supportedVariants": [
+    "minecraft:oak",
+    "minecraft:bamboo",
+    "minecraft:spruce",
+    "minecraft:birch",
+    "minecraft:jungle",
+    "minecraft:acacia",
+    "minecraft:cherry",
+    "minecraft:dark_oak",
+    "minecraft:mangrove",
+    "minecraft:crimson",
+    "minecraft:warped",
+    "iceandfire:dreadwood",
+    "alexscaves:pewen",
+    "alexscaves:thornwood",
+    "unusualprehistory:foxxi",
+    "unusualprehistory:ginkgo",
+    "unusualprehistory:dryo",
+    "born_in_chaos_v1:scorched",
+    "cataclysm:chorus",
+    "witherstormmod:tainted",
+    "unusual_prehistory:ginkgo",
+    "unusual_prehistory:lepidodendron",
+    "unusual_prehistory:dryophyllum",
+    "unusual_prehistory:metasequoia"
+  ],
+  "ingredients": {
+    "vanillaIngredients": [
+      {
+        "item": "minecraft:gray_wool"
+      },
+      {
+        "item": "minecraft:gray_wool"
+      },
+      {
+        "item": "minecraft:gray_wool"
+      },
+      {
+        "item": "minecraft:torch"
+      },
+      {
+        "item": "minecraft:redstone"
+      }
+    ],
+    "variantChildren": {
+      "stripped_log": 2
+    }
+  },
+  "result": {
+    "outputClass": "BasicLampBlock",
+    "tag": {
+      "BlockEntityTag": {
+        "color": "gray"
+      },
+      "variantInNbt": 1
+    }
+  }
+}

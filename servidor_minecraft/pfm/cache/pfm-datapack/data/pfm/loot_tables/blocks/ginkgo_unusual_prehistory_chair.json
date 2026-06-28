@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "ginkgo_unusual_prehistory_chair",
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pfm:ginkgo_unusual_prehistory_chair"
+        }
+      ]
+    }
+  ]
+}
