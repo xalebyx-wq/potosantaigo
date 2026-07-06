@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "lepidodendron_unusual_prehistory_kitchen_drawer",
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pfm:lepidodendron_unusual_prehistory_kitchen_drawer"
+        }
+      ]
+    }
+  ]
+}

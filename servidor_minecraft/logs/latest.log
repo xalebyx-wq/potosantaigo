@@ -1,0 +1,587 @@
+[06Jul2026 19:44:59.841] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[06Jul2026 19:44:59.846] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[06Jul2026 19:45:02.479] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Jul2026 19:45:02.561] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/potosantaigo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[06Jul2026 19:45:03.350] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/potosantaigo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2026 19:45:03.352] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/potosantaigo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2026 19:45:03.356] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/potosantaigo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2026 19:45:03.362] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/potosantaigo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2026 19:45:03.949] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/potosantaigo/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
+[06Jul2026 19:45:03.950] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 27 dependencies adding them to mods collection
+[06Jul2026 19:45:08.320] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Jul2026 19:45:08.350] [main/ERROR] [mixin/]: Mixin config hamsters.mixins.json does not specify "minVersion" property
+[06Jul2026 19:45:08.455] [main/ERROR] [mixin/]: Mixin config yuushya.mixins.json does not specify "minVersion" property
+[06Jul2026 19:45:08.485] [main/ERROR] [mixin/]: Mixin config arclight.mixins.json does not specify "minVersion" property
+[06Jul2026 19:45:08.510] [main/ERROR] [mixin/]: Mixin config improvedgrindstone.mixins.json does not specify "minVersion" property
+[06Jul2026 19:45:08.648] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[06Jul2026 19:45:08.694] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[06Jul2026 19:45:08.805] [main/WARN] [mixin/]: Reference map 'hamsters.refmap.json' for hamsters.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2026 19:45:09.032] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.58+mc1.20.1: 110 options available, 0 override(s) found
+[06Jul2026 19:45:09.033] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[06Jul2026 19:45:09.061] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[06Jul2026 19:45:09.274] [main/WARN] [mixin/]: Reference map 'enderitemod-forge-refmap.json' for enderitemod.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2026 19:45:09.318] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for arclight.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2026 19:45:09.391] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[06Jul2026 19:45:09.472] [main/WARN] [mixin/]: Reference map 'mixins.block_factorys_bosses.refmap.json' for mixins.block_factorys_bosses.json could not be read. If this is a development environment you can ignore this message
+[06Jul2026 19:45:09.543] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2026 19:45:10.297] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[06Jul2026 19:45:10.298] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[06Jul2026 19:45:10.299] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[06Jul2026 19:45:11.474] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[06Jul2026 19:45:11.711] [main/WARN] [mixin/]: Error loading class: net/fabricmc/fabric/api/entity/event/v1/FabricElytraItem (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.entity.event.v1.FabricElytraItem)
+[06Jul2026 19:45:11.921] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants$Key (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants$Key)
+[06Jul2026 19:45:12.139] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[06Jul2026 19:45:12.602] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[06Jul2026 19:45:12.765] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (15.75 s after launch)
+[06Jul2026 19:45:13.015] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[06Jul2026 19:45:13.016] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[06Jul2026 19:45:13.183] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[06Jul2026 19:45:13.184] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[06Jul2026 19:45:13.184] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[06Jul2026 19:45:13.960] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$bop000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[06Jul2026 19:45:14.956] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2147 milliseconds
+[06Jul2026 19:45:17.762] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zpb000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[06Jul2026 19:45:19.875] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[06Jul2026 19:45:20.106] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[06Jul2026 19:45:20.109] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
+[06Jul2026 19:45:21.960] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: ---------------------------------------------------------------------------------
+[06Jul2026 19:45:21.962] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod musicplayer is not signed with a valid certificate but should be signed.
+[06Jul2026 19:45:21.962] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Please download the mod only from trusted sources such as curseforge.com!
+[06Jul2026 19:45:21.963] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: ---------------------------------------------------------------------------------
+[06Jul2026 19:45:22.185] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[06Jul2026 19:45:22.338] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[06Jul2026 19:45:22.353] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[06Jul2026 19:45:22.708] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: ---------------------------------------------------------------------------------
+[06Jul2026 19:45:22.708] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is not signed with a valid certificate but should be signed.
+[06Jul2026 19:45:22.709] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Please download the mod only from trusted sources such as curseforge.com!
+[06Jul2026 19:45:22.709] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: ---------------------------------------------------------------------------------
+[06Jul2026 19:45:22.900] [ForkJoinPool.commonPool-worker-1/INFO] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: [Paladin's Furniture Update Check] Cached update file detected, using that!
+[06Jul2026 19:45:23.202] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.2+1.20.1!
+[06Jul2026 19:45:23.201] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.39.
+[06Jul2026 19:45:23.610] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[06Jul2026 19:45:25.122] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[06Jul2026 19:45:25.124] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[06Jul2026 19:45:25.126] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[06Jul2026 19:45:25.172] [modloading-worker-0/INFO] [com.craftjakob.configapi.ConfigAPI/]: Registered config for: configapi as configapi-client.cfg
+[06Jul2026 19:45:25.201] [modloading-worker-0/INFO] [com.craftjakob.configapi.ConfigAPI/]: Registered config for: configapi as configapi-common.cfg
+[06Jul2026 19:45:25.203] [modloading-worker-0/INFO] [com.craftjakob.configapi.ConfigAPI/]: Registered config for: configapi as configapi-server.cfg
+[06Jul2026 19:45:25.382] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[06Jul2026 19:45:25.560] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[06Jul2026 19:45:25.561] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[06Jul2026 19:45:25.562] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[06Jul2026 19:45:25.564] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[06Jul2026 19:45:25.567] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[06Jul2026 19:45:25.569] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[06Jul2026 19:45:25.571] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[06Jul2026 19:45:25.577] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[06Jul2026 19:45:25.706] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[06Jul2026 19:45:25.706] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[06Jul2026 19:45:27.882] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[06Jul2026 19:45:27.960] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[06Jul2026 19:45:28.018] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[06Jul2026 19:45:28.019] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[06Jul2026 19:45:28.075] [modloading-worker-0/INFO] [yuushya/]: Yuushya has been loaded successfully!
+[06Jul2026 19:45:28.144] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing AOTAConfig from '/workspaces/potosantaigo/servidor_minecraft/config/armoroftheages.json'
+[06Jul2026 19:45:28.262] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/potosantaigo/servidor_minecraft/config/yacl.json5'
+[06Jul2026 19:45:28.646] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[06Jul2026 19:45:28.665] [modloading-worker-0/INFO] [com.craftjakob.configapi.ConfigAPI/]: Registered config for: enderite as enderite-client.cfg
+[06Jul2026 19:45:28.675] [modloading-worker-0/INFO] [com.craftjakob.configapi.ConfigAPI/]: Registered config for: enderite as enderite-common.cfg
+[06Jul2026 19:45:33.115] [main/WARN] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: Found block type with duplicate id (minecraft:oak), skipping
+[06Jul2026 19:45:34.938] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[06Jul2026 19:45:34.939] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[06Jul2026 19:45:36.648] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[06Jul2026 19:45:36.696] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[06Jul2026 19:45:37.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/potosantaigo/servidor_minecraft/config/unusualprehistory-common.toml is not correct. Correcting
+[06Jul2026 19:45:37.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key brachi_sound_volume was corrected from 3.0 to its default, 3.0. 
+[06Jul2026 19:45:37.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key brachi_teen_sound_volume was corrected from 1.5 to its default, 1.5. 
+[06Jul2026 19:45:37.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rex_sound_volume was corrected from 0.5 to its default, 0.5. 
+[06Jul2026 19:45:37.459] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[06Jul2026 19:45:37.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [musicplayer] Starting version check at https://api.u-team.info/update/musicplayer.json
+[06Jul2026 19:45:37.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [musicplayer] Found status: AHEAD Current: 2.7.0.349 Target: null
+[06Jul2026 19:45:37.592] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[06Jul2026 19:45:37.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 5.1.4.382 Target: null
+[06Jul2026 19:45:37.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[06Jul2026 19:45:37.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: AHEAD Current: 1.1.5 Target: null
+[06Jul2026 19:45:37.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwtrpdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/trapdoors.json
+[06Jul2026 19:45:37.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwtrpdoors] Found status: UP_TO_DATE Current: 1.1.5 Target: null
+[06Jul2026 19:45:37.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[06Jul2026 19:45:37.686] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 9.0.10 Target: 9.1.1
+[06Jul2026 19:45:37.686] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[06Jul2026 19:45:37.761] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[06Jul2026 19:45:37.793] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[06Jul2026 19:45:37.794] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[06Jul2026 19:45:37.794] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[06Jul2026 19:45:37.794] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[06Jul2026 19:45:37.803] [main/INFO] [journeymap/]: Initializing Packet Registries
+[06Jul2026 19:45:37.883] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23292!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23292!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[06Jul2026 19:45:37.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[06Jul2026 19:45:37.897] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.4.1 Target: null
+[06Jul2026 19:45:37.898] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[06Jul2026 19:45:37.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
+[06Jul2026 19:45:37.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[06Jul2026 19:45:37.987] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[06Jul2026 19:45:37.990] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[06Jul2026 19:45:37.991] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[06Jul2026 19:45:38.017] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[06Jul2026 19:45:38.019] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[06Jul2026 19:45:38.019] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[06Jul2026 19:45:38.019] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[06Jul2026 19:45:38.036] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[06Jul2026 19:45:38.036] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Jul2026 19:45:38.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[06Jul2026 19:45:38.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[06Jul2026 19:45:38.219] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[06Jul2026 19:45:38.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
+[06Jul2026 19:45:38.263] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 1.20.1-2.3.5 Target: null
+[06Jul2026 19:45:38.414] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[06Jul2026 19:45:38.421] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[06Jul2026 19:45:38.432] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[06Jul2026 19:45:38.432] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
+[06Jul2026 19:45:38.434] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing plugin yogmod:plugin at com.nosiphus.yogmod.integration.wthit.WTHITYogModPlugin
+[06Jul2026 19:45:38.443] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
+[06Jul2026 19:45:38.444] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing plugin securitycraft:plugin at net.geforcemods.securitycraft.compat.hudmods.WTHITDataProvider
+[06Jul2026 19:45:38.445] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[06Jul2026 19:45:38.469] [main/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[06Jul2026 19:45:39.433] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Jul2026 19:45:39.568] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[06Jul2026 19:45:40.405] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/potosantaigo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23291!/assets/.mcassetsroot' uses unexpected schema
+[06Jul2026 19:45:40.405] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/potosantaigo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23291!/data/.mcassetsroot' uses unexpected schema
+[06Jul2026 19:45:41.413] [main/INFO] [PFM-DataGen/]: Data Hash for Game Data and Variant List matched, skipping generation
+[06Jul2026 19:45:44.832] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[06Jul2026 19:45:44.982] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag unusual_prehistory:on_fossil_maps as it is missing following references: unusual_prehistory:mesozoic_fossil (from Unusual-Prehistory-2-1.20.1-1.4.3.jar), 
+	unusual_prehistory:paleozoic_fossil (from Unusual-Prehistory-2-1.20.1-1.4.3.jar), 
+	unusual_prehistory:petrified_tree (from Unusual-Prehistory-2-1.20.1-1.4.3.jar)
+[06Jul2026 19:45:44.984] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag unusual_prehistory:on_paleozoic_fossil_maps as it is missing following references: unusual_prehistory:paleozoic_fossil (from Unusual-Prehistory-2-1.20.1-1.4.3.jar)
+[06Jul2026 19:45:44.985] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag unusual_prehistory:on_mesozoic_fossil_maps as it is missing following references: unusual_prehistory:mesozoic_fossil (from Unusual-Prehistory-2-1.20.1-1.4.3.jar)
+[06Jul2026 19:45:44.985] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag unusual_prehistory:on_petrified_tree_maps as it is missing following references: unusual_prehistory:petrified_tree (from Unusual-Prehistory-2-1.20.1-1.4.3.jar)
+[06Jul2026 19:45:45.578] [Worker-Main-3/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-9.0.10.jar
+[06Jul2026 19:45:45.730] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag unusual_prehistory:accelerates_egg_hatching as it is missing following references: #unusual_prehistory:wool (from Unusual-Prehistory-2-1.20.1-1.4.3.jar)
+[06Jul2026 19:45:45.786] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag pvz_zengarden:planting_spot/all as it is missing following references: #pvzzengarden:planting_spore_spot (from pvz_zengarden-1.8.5.jar)
+[06Jul2026 19:45:47.509] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[06Jul2026 19:45:47.514] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[06Jul2026 19:45:47.517] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[06Jul2026 19:45:47.521] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[06Jul2026 19:45:47.524] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[06Jul2026 19:45:47.533] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[06Jul2026 19:45:47.537] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[06Jul2026 19:45:47.547] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[06Jul2026 19:45:47.562] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[06Jul2026 19:45:47.576] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[06Jul2026 19:45:47.581] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[06Jul2026 19:45:47.588] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[06Jul2026 19:45:47.600] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[06Jul2026 19:45:47.606] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[06Jul2026 19:45:47.615] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[06Jul2026 19:45:47.625] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[06Jul2026 19:45:47.636] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[06Jul2026 19:45:47.640] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[06Jul2026 19:45:47.647] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[06Jul2026 19:45:47.650] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[06Jul2026 19:45:47.657] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[06Jul2026 19:45:47.661] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[06Jul2026 19:45:47.668] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[06Jul2026 19:45:47.677] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[06Jul2026 19:45:47.681] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[06Jul2026 19:45:47.688] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[06Jul2026 19:45:47.692] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[06Jul2026 19:45:47.700] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[06Jul2026 19:45:47.712] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[06Jul2026 19:45:47.739] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[06Jul2026 19:45:47.743] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[06Jul2026 19:45:47.750] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[06Jul2026 19:45:47.754] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[06Jul2026 19:45:47.758] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[06Jul2026 19:45:47.764] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[06Jul2026 19:45:47.765] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[06Jul2026 19:45:47.766] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[06Jul2026 19:45:50.043] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[06Jul2026 19:45:50.088] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:splashing/wore_stone: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+[06Jul2026 19:45:50.093] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:splashing/light_gray_worn_concrete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+[06Jul2026 19:45:50.098] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe totem_custom:revil: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[06Jul2026 19:45:50.190] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:stone/chiseled_vertical_marble: com.google.gson.JsonSyntaxException: Expected result to be a JsonObject, was "yuu...le"
+[06Jul2026 19:45:50.200] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/embbed_pale_bricks: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.210] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/wore_lime_wall: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.248] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:splashing/yellow_worn_concrete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+[06Jul2026 19:45:50.306] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/lime__concrete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.349] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:splashing/gray_worn_concrete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+[06Jul2026 19:45:50.350] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:deploying/framed_bricks: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:deploying'
+[06Jul2026 19:45:50.352] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:splashing/top_reinforced_concrete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+[06Jul2026 19:45:50.361] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:deploying/reinforced_concrete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:deploying'
+[06Jul2026 19:45:50.397] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:deploying/wore_lime_wall: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:deploying'
+[06Jul2026 19:45:50.448] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe totem_custom:nutria: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[06Jul2026 19:45:50.509] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/park_tile: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.517] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe totem_custom:eonico: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[06Jul2026 19:45:50.543] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/fossilized_cobblestone: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.576] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/embbed_magenta_pale_bricks: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.579] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:stone/gray_wall_a: com.google.gson.JsonSyntaxException: Expected result to be a JsonObject, was "yuu...ll"
+[06Jul2026 19:45:50.639] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:splashing/mossy_bricks: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+[06Jul2026 19:45:50.642] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/egg_cobblestone: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.651] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/embbed_magenta_pale_bricks_alt: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.665] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:splashing/white_worn_concrete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+[06Jul2026 19:45:50.666] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe totem_custom:ferreo: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[06Jul2026 19:45:50.705] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/embbed_dark_bricks_alt: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.707] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe unusualprehistory:trike_shield_smithing: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[06Jul2026 19:45:50.730] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe warden_dimension:pitchrecipe: com.google.gson.JsonSyntaxException: Empty ingredient not allowed here
+[06Jul2026 19:45:50.795] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:painter_gift_box: com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
+[06Jul2026 19:45:50.835] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/scarlet_tile: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.883] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/terracotta_cobblestone: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.890] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/gray_tile: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.925] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/embbed_pale_bricks_alt: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.933] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/marble_cobblestone: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.935] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe totem_custom:flashbang: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[06Jul2026 19:45:50.956] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:splashing/orange_worn_concrete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:splashing'
+[06Jul2026 19:45:50.957] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:mixing/embbed_dark_bricks: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[06Jul2026 19:45:50.970] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 36 recipes
+[06Jul2026 19:45:51.348] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:main/tame_barina: Failed to parse 'location' field
+[06Jul2026 19:45:51.420] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 7133 advancements
+[06Jul2026 19:45:51.461] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[06Jul2026 19:45:51.481] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[06Jul2026 19:45:51.483] [main/INFO] [boss_checklist/]: Number of registered boss ids on the server: 23
+[06Jul2026 19:45:51.536] [main/INFO] [STDOUT/]: [ttv.migami.jeg.modifier.ModifierLoader:apply:47]: Loaded 2 modifier groups
+[06Jul2026 19:45:51.554] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'neoforge:loot_table_id'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.predicates.CompositeLootItemCondition$Serializer.m_7561_(CompositeLootItemCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.predicates.CompositeLootItemCondition$Serializer.m_7561_(CompositeLootItemCondition.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23296!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$3.decode(RecordCodecBuilder.java:248) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23296!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23296!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[06Jul2026 19:45:51.566] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id crittersandcompanions:inject_clams - error: Unknown type 'neoforge:loot_table_id'
+[06Jul2026 19:45:51.571] [main/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Data loader for unusualprehistory/analyzer loaded 14 jsons
+[06Jul2026 19:45:51.575] [main/INFO] [com.peeko32213.unusualprehistory.common.data.LootFruitJsonManager/]: Data loader for unusualprehistory/trades loaded 4 jsons
+[06Jul2026 19:45:51.594] [main/INFO] [com.peeko32213.unusualprehistory.common.data.EncyclopediaJsonManager/]: Data loader for unusualprehistory/encyclopedia loaded 47 jsons
+[06Jul2026 19:45:51.823] [main/WARN] [ModernFix/]: Initial datapack load took 11.35 s
+[06Jul2026 19:45:51.843] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[06Jul2026 19:45:51.871] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[06Jul2026 19:45:52.231] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[06Jul2026 19:45:52.556] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[06Jul2026 19:45:52.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Jul2026 19:45:52.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Jul2026 19:45:52.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Jul2026 19:45:52.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[06Jul2026 19:45:52.715] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[06Jul2026 19:45:52.887] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Jul2026 19:45:52.888] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Jul2026 19:45:52.889] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Jul2026 19:45:52.890] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Jul2026 19:45:52.927] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[06Jul2026 19:45:53.332] [Server thread/INFO] [Framework/]: Loading server configs...
+[06Jul2026 19:45:53.554] [Server thread/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[06Jul2026 19:45:53.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Jul2026 19:45:53.632] [Server thread/WARN] [mixin/]: @Redirect conflict. Skipping servercore.common.mixins.json:optimizations.ticking.chunk.cache.ServerChunkCacheMixin->@Redirect::servercore$noList(I)Ljava/util/ArrayList; with priority 900, already redirected by lithium.mixins.json:alloc.chunk_ticking.ServerChunkManagerMixin->@Redirect::redirectChunksListClone(I)Ljava/util/ArrayList; with priority 1000
+[06Jul2026 19:45:55.387] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg,jeg:assault_rifle,jeg:semi_auto_rifle|jeg:blossom_rifle,jeg:service_rifle,jeg:infantry_rifle]
+[06Jul2026 19:45:56.127] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.FallingBlockEntity from class com.peeko32213.unusualprehistory.common.entity.msc.projectile.ThrowableFallingBlockEntity
+[06Jul2026 19:45:56.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Jul2026 19:45:56.301] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in lithium.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[06Jul2026 19:45:58.935] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2026 19:45:58.938] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2026 19:45:58.943] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2026 19:45:58.946] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2026 19:45:58.946] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2026 19:45:58.947] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2026 19:45:59.298] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2026 19:45:59.814] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3517 ms
+[06Jul2026 19:45:59.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.903s)! For help, type "help"
+[06Jul2026 19:45:59.956] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Jul2026 19:45:59.962] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[06Jul2026 19:46:03.340] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[06Jul2026 19:46:03.340] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[06Jul2026 19:46:03.341] [Server thread/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Registered 17 jsons with items!
+[06Jul2026 19:46:03.341] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[06Jul2026 19:46:03.355] [Server thread/WARN] [ModernFix/]: Dedicated server took 66.339 seconds to load
+[06Jul2026 19:46:16.901] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AndreiiiiiXd[/100.107.6.64:57057] logged in with entity id 1615 at (652.0749999880791, 68.0, -536.1291665787621)
+[06Jul2026 19:46:16.989] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player AndreiiiiiXd
+[06Jul2026 19:46:17.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AndreiiiiiXd joined the game
+[06Jul2026 19:46:20.132] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[06Jul2026 19:46:32.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set AndreiiiiiXd's game mode to Creative Mode
+[06Jul2026 19:46:55.851] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AndreiiiiiXd moved too quickly! -0.5192305358449403,1.0352163224527828,10.08389253542407
+[06Jul2026 19:47:06.313] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Santitin89YT[/100.91.42.123:50409] logged in with entity id 2923 at (2105.699999988079, 66.0, -707.3000000119209)
+[06Jul2026 19:47:06.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT joined the game
+[06Jul2026 19:47:13.506] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[06Jul2026 19:47:30.756] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2250ms or 45 ticks behind
+[06Jul2026 19:48:45.606] [Worker-Main-1/INFO] [citadel/]: merged 6 surface rules with vanilla rule BlockRuleSource
+[06Jul2026 19:48:46.420] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [64 above bottom--64 absolute]
+[06Jul2026 19:48:47.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2496ms or 49 ticks behind
+[06Jul2026 19:51:00.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 19:51:15.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: The difficulty has been set to Hard]
+[06Jul2026 19:51:24.827] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/11976, l='ServerLevel[world]', x=639.03, y=61.90, z=-564.90] died, message: 'Librarian was slain by Zombie'
+[06Jul2026 19:52:11.886] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xXAlebyXx[/100.64.251.26:52113] logged in with entity id 13667 at (-961.4734776049575, 21.0, -1854.475083716645)
+[06Jul2026 19:52:11.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx joined the game
+[06Jul2026 19:52:18.709] [Worker-Main-3/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-994, y=-44, z=-1952}
+[06Jul2026 19:54:11.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 19:55:59.332] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/33760, l='ServerLevel[world]', x=639.03, y=61.90, z=-564.90] died, message: 'Librarian was slain by Potitin'
+[06Jul2026 19:56:12.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Gave 100 experience levels to xXAlebyXx]
+[06Jul2026 19:56:22.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 19:57:13.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Gave 1 [Waystone] to Santitin89YT]
+[06Jul2026 19:57:19.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Gave 1 [Waystone] to Santitin89YT]
+[06Jul2026 19:57:25.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Gave 1 [Waystone] to Santitin89YT]
+[06Jul2026 19:58:24.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Santitin89YT moved too quickly! 18.22689832947016,1.729824645431691,-1.4482152627398364
+[06Jul2026 19:58:39.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 19:59:04.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Santitin89YT moved too quickly! -0.8370376350510469,-1.777762157803437,17.69535639939693
+[06Jul2026 19:59:30.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT was slain by Nightmare Stalker
+[06Jul2026 19:59:30.634] [Server thread/INFO] [tombstone/]: The player Santitin89YT has successfully been saved
+[06Jul2026 19:59:42.898] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx lost connection: Timed out
+[06Jul2026 19:59:42.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx left the game
+[06Jul2026 20:00:14.627] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xXAlebyXx[/100.64.251.26:52133] logged in with entity id 57960 at (-962.453674626705, 21.0, -1851.0859006510166)
+[06Jul2026 20:00:14.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx joined the game
+[06Jul2026 20:01:39.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 20:02:02.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 20:02:07.918] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Santitin89YT lost connection: Timed out
+[06Jul2026 20:02:07.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT left the game
+[06Jul2026 20:03:50.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 20:04:57.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 20:05:37.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 20:05:38.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 20:06:02.431] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Santitin89YT[/100.91.42.123:50458] logged in with entity id 95121 at (649.8659462664695, 68.0, -526.410955189199)
+[06Jul2026 20:06:02.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT joined the game
+[06Jul2026 20:08:04.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 20:09:14.896] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/109058, l='ServerLevel[world]', x=640.80, y=65.00, z=-553.50] died, message: 'Villager was slain by AndreiiiiiXd'
+[06Jul2026 20:09:24.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 20:09:32.834] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Santitin89YT lost connection: Timed out
+[06Jul2026 20:09:32.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT left the game
+[06Jul2026 20:10:58.792] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/113116, l='ServerLevel[world]', x=631.47, y=62.00, z=-561.39] died, message: 'Librarian was slain by AndreiiiiiXd'
+[06Jul2026 20:11:06.785] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@43dfff55[id=<null>,name=Santitin89YT,properties={},legacy=false] (/100.91.42.123:50464) lost connection: Disconnected
+[06Jul2026 20:11:25.174] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Santitin89YT[/100.91.42.123:50474] logged in with entity id 122945 at (657.5029546406021, 71.20997923329004, -546.3480205490912)
+[06Jul2026 20:11:25.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT joined the game
+[06Jul2026 20:16:51.742] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! 8.013409326744522,5.438310258801735,3.015448886428885
+[06Jul2026 20:16:57.194] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! 1.9450340642802075,5.3582599584746475,-8.784675308986266
+[06Jul2026 20:17:01.045] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/120960, l='ServerLevel[world]', x=631.31, y=62.00, z=-559.53] died, message: 'Librarian was slain by AndreiiiiiXd'
+[06Jul2026 20:17:22.945] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! 6.84472305734289,6.962152286018963,-4.088535271809064
+[06Jul2026 20:17:32.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! -7.678016964005451,6.792476252371642,-2.6765951162841475
+[06Jul2026 20:18:52.994] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! -2.8454063553482456,1.8790833595330554,-9.591592843488343
+[06Jul2026 20:19:14.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! 3.1860183349895124,4.3524120206339205,-8.768355143943722
+[06Jul2026 20:19:28.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! 2.3442012259536114,3.002544212151193,10.028695361128598
+[06Jul2026 20:19:46.583] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx lost connection: Timed out
+[06Jul2026 20:19:46.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx left the game
+[06Jul2026 20:20:18.968] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xXAlebyXx[/100.64.251.26:52204] logged in with entity id 169181 at (664.4802665330782, 81.17826117920004, -566.9851581752082)
+[06Jul2026 20:20:19.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx joined the game
+[06Jul2026 20:22:11.332] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Santitin89YT lost connection: Timed out
+[06Jul2026 20:22:11.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT left the game
+[06Jul2026 20:22:12.739] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/154908, l='ServerLevel[world]', x=632.51, y=62.00, z=-559.51] died, message: 'Librarian was slain by AndreiiiiiXd'
+[06Jul2026 20:22:49.617] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Santitin89YT[/100.91.42.123:50494] logged in with entity id 181352 at (647.6999999880791, 72.0, -562.0051340275689)
+[06Jul2026 20:22:49.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT joined the game
+[06Jul2026 20:27:21.305] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! -7.247501476260595,6.962152286018963,-2.6266233405366393
+[06Jul2026 20:28:19.731] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx lost connection: Timed out
+[06Jul2026 20:28:19.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx left the game
+[06Jul2026 20:28:31.929] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Santitin89YT lost connection: Disconnected
+[06Jul2026 20:28:31.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT left the game
+[06Jul2026 20:28:39.022] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/206542, l='ServerLevel[world]', x=639.03, y=61.90, z=-564.90] died, message: 'Librarian was slain by Potitin'
+[06Jul2026 20:28:57.307] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xXAlebyXx[/100.64.251.26:52233] logged in with entity id 209588 at (634.0500000119209, 62.125, -559.3883673555172)
+[06Jul2026 20:28:57.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx joined the game
+[06Jul2026 20:33:07.978] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Santitin89YT[/100.91.42.123:50548] logged in with entity id 229929 at (638.6632492752751, 62.0, -562.0101291989088)
+[06Jul2026 20:33:07.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT joined the game
+[06Jul2026 20:36:21.928] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/246823, l='ServerLevel[world]', x=639.03, y=61.90, z=-564.90] died, message: 'Librarian was slain by Potitin'
+[06Jul2026 20:39:27.601] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Santitin89YT moved too quickly! -0.6977371226982996,5.929924044602643,-8.159783940195325
+[06Jul2026 20:40:25.646] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Potitin'/1667, l='ServerLevel[world]', x=638.60, y=62.00, z=-565.31] died: Potitin blew up
+[06Jul2026 20:40:25.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT blew up
+[06Jul2026 20:40:25.761] [Server thread/INFO] [tombstone/]: The player Santitin89YT has successfully been saved
+[06Jul2026 20:41:04.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT blew up
+[06Jul2026 20:41:04.809] [Server thread/INFO] [tombstone/]: The player Santitin89YT has successfully been saved
+[06Jul2026 20:42:29.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT blew up
+[06Jul2026 20:42:29.312] [Server thread/INFO] [tombstone/]: The player Santitin89YT has successfully been saved
+[06Jul2026 20:42:49.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 20:42:59.739] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Wolf['tilinazo'/1626, l='ServerLevel[world]', x=649.57, y=69.00, z=-561.69] died: tilinazo burned to death
+[06Jul2026 20:44:07.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 20:44:14.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT blew up
+[06Jul2026 20:44:14.891] [Server thread/INFO] [tombstone/]: The player Santitin89YT has successfully been saved
+[06Jul2026 20:52:59.587] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx lost connection: Timed out
+[06Jul2026 20:52:59.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx left the game
+[06Jul2026 20:53:50.431] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@422d7bbd[id=<null>,name=xXAlebyXx,properties={},legacy=false] (/100.64.251.26:52311) lost connection: Disconnected
+[06Jul2026 20:54:27.378] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@712ec1b0[id=<null>,name=xXAlebyXx,properties={},legacy=false] (/100.64.251.26:52316): Took too long to log in
+[06Jul2026 20:54:27.379] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@712ec1b0[id=<null>,name=xXAlebyXx,properties={},legacy=false] (/100.64.251.26:52316) lost connection: Took too long to log in
+[06Jul2026 20:54:27.431] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[06Jul2026 20:56:54.420] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xXAlebyXx[/100.64.251.26:52357] logged in with entity id 349923 at (663.1793600041277, 74.3250731444634, -472.03401005599585)
+[06Jul2026 20:56:54.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx joined the game
+[06Jul2026 20:57:47.387] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx lost connection: Disconnected
+[06Jul2026 20:57:47.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx left the game
+[06Jul2026 20:58:41.028] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@17009cf9[id=<null>,name=xXAlebyXx,properties={},legacy=false] (/100.64.251.26:52374): Took too long to log in
+[06Jul2026 20:58:41.029] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@17009cf9[id=<null>,name=xXAlebyXx,properties={},legacy=false] (/100.64.251.26:52374) lost connection: Took too long to log in
+[06Jul2026 20:58:41.079] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[06Jul2026 21:01:15.278] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@50b43d75[id=<null>,name=xXAlebyXx,properties={},legacy=false] (/100.64.251.26:52409): Took too long to log in
+[06Jul2026 21:01:15.279] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@50b43d75[id=<null>,name=xXAlebyXx,properties={},legacy=false] (/100.64.251.26:52409) lost connection: Took too long to log in
+[06Jul2026 21:01:15.335] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[06Jul2026 21:01:54.060] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xXAlebyXx[/100.64.251.26:52412] logged in with entity id 362045 at (663.1793600041277, 74.3250731444634, -472.03401005599585)
+[06Jul2026 21:01:54.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xXAlebyXx joined the game
+[06Jul2026 21:05:03.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT was blown up by Skeleton
+[06Jul2026 21:05:03.126] [Server thread/INFO] [tombstone/]: The player Santitin89YT has successfully been saved
+[06Jul2026 21:07:44.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 21:12:20.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Spectator Mode]
+[06Jul2026 21:12:33.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 21:12:50.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:15:24.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 21:16:40.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Spectator Mode]
+[06Jul2026 21:16:43.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 21:17:40.571] [Worker-Main-44/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[06Jul2026 21:17:47.071] [Worker-Main-3/INFO] [ModernFix/]: Instantiating Mojang DFU
+[06Jul2026 21:18:51.501] [Worker-Main-44/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/456689, l='ServerLevel[world]', x=-58.00, y=113.00, z=-290.00] as it would cause deadlock
+[06Jul2026 21:23:27.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:23:53.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 21:24:00.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Teleported AndreiiiiiXd to xXAlebyXx]
+[06Jul2026 21:24:41.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Teleported AndreiiiiiXd to Santitin89YT]
+[06Jul2026 21:24:47.699] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-210, y=4, z=-137} BlockPos{x=-211, y=3, z=-137}
+[06Jul2026 21:24:47.750] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-210, y=4, z=-137} BlockPos{x=-211, y=3, z=-137}
+[06Jul2026 21:24:47.805] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-210, y=4, z=-137} BlockPos{x=-211, y=3, z=-137}
+[06Jul2026 21:24:47.852] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-210, y=4, z=-137} BlockPos{x=-211, y=3, z=-137}
+[06Jul2026 21:24:49.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:24:52.135] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-209, y=7, z=-135} BlockPos{x=-205, y=4, z=-139}
+[06Jul2026 21:25:35.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set Santitin89YT's game mode to Spectator Mode]
+[06Jul2026 21:25:40.063] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: ArmorStand['Armor Stand'/499357, l='ServerLevel[world]', x=-224.19, y=320.00, z=-138.57]
+[06Jul2026 21:25:45.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Spectator Mode]
+[06Jul2026 21:26:16.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:26:20.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 21:26:26.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:26:59.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set Santitin89YT's game mode to Survival Mode]
+[06Jul2026 21:29:12.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Spectator Mode]
+[06Jul2026 21:29:25.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:29:38.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Spectator Mode]
+[06Jul2026 21:29:54.263] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
+[06Jul2026 21:30:06.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:30:09.232] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=670, y=63, z=-366} BlockPos{x=670, y=62, z=-365}
+[06Jul2026 21:30:09.300] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=670, y=63, z=-366} BlockPos{x=670, y=62, z=-365}
+[06Jul2026 21:30:09.301] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=671, y=62, z=-364} BlockPos{x=670, y=62, z=-365}
+[06Jul2026 21:30:09.494] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=671, y=62, z=-365} BlockPos{x=671, y=62, z=-363}
+[06Jul2026 21:30:11.770] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[06Jul2026 21:30:32.719] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=652, y=65, z=-356} BlockPos{x=652, y=65, z=-357}
+[06Jul2026 21:30:37.609] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[06Jul2026 21:30:54.607] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[06Jul2026 21:31:22.427] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2271ms or 45 ticks behind
+[06Jul2026 21:32:01.303] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-180, y=6, z=-150} BlockPos{x=-180, y=7, z=-150}
+[06Jul2026 21:32:21.967] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-169, y=6, z=-133} BlockPos{x=-170, y=4, z=-135}
+[06Jul2026 21:32:29.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Spectator Mode]
+[06Jul2026 21:32:31.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 21:33:27.308] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[06Jul2026 21:33:47.780] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[06Jul2026 21:34:08.125] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[06Jul2026 21:34:27.225] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[06Jul2026 21:34:55.131] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[06Jul2026 21:38:13.206] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Santitin89YT moved too quickly! 18.47618717853294,-1.7352527939992908,0.009262342986238181
+[06Jul2026 21:38:16.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:38:21.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Teleported AndreiiiiiXd to xXAlebyXx]
+[06Jul2026 21:38:47.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set the weather to clear]
+[06Jul2026 21:40:06.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 21:40:47.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AndreiiiiiXd was slain by Dread Hound
+[06Jul2026 21:40:47.426] [Server thread/INFO] [tombstone/]: The player AndreiiiiiXd has successfully been saved
+[06Jul2026 21:40:54.836] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! -0.15946836465536762,5.98259242127574,8.333081419199004
+[06Jul2026 21:41:12.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:42:54.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set the time to 1000]
+[06Jul2026 21:45:43.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Survival Mode]
+[06Jul2026 21:46:03.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AndreiiiiiXd burned to death
+[06Jul2026 21:46:03.097] [Server thread/INFO] [tombstone/]: The player AndreiiiiiXd has successfully been saved
+[06Jul2026 21:46:20.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AndreiiiiiXd: Set own game mode to Creative Mode]
+[06Jul2026 21:47:51.143] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! -6.60387692903214,7.364962683135062,3.229395155482109
+[06Jul2026 21:48:00.256] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Santitin89YT moved too quickly! -8.451186304411394,5.564390216660186,-0.7725889685083991
+[06Jul2026 21:48:54.198] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xXAlebyXx moved too quickly! -8.082917329812403,5.121003321054729,-4.032253082096531
+[06Jul2026 21:49:49.604] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AndreiiiiiXd lost connection: Disconnected
+[06Jul2026 21:49:49.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AndreiiiiiXd left the game
+[06Jul2026 21:55:08.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Santitin89YT froze to death
+[06Jul2026 21:55:08.219] [Server thread/INFO] [tombstone/]: The player Santitin89YT has successfully been saved
+[06Jul2026 21:57:15.147] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2091ms or 41 ticks behind

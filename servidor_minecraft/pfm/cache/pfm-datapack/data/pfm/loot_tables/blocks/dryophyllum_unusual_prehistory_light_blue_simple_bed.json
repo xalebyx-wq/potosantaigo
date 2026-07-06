@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "dryophyllum_unusual_prehistory_light_blue_simple_bed",
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "pfm:dryophyllum_unusual_prehistory_light_blue_simple_bed",
+              "properties": {
+                "part": "head"
+              }
+            }
+          ],
+          "name": "pfm:dryophyllum_unusual_prehistory_light_blue_simple_bed"
+        }
+      ]
+    }
+  ]
+}
